@@ -55,3 +55,13 @@ const classes =[
 
 const usingClass = classes.filter(classes => claseese.isUsing);
 
+//  Arrow function and This
+//  Arrow function do not rebind this 
+
+const timer = {
+    talk(){
+        setTimeout(() => {
+            console.log("this",this);
+        }, 1000);
+    }
+};
