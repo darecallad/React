@@ -23,3 +23,10 @@ const student= {
 student.walk(); 
 walk() //window function 
 
+// fix problem always return reference of obj
+
+// blind
+
+const walk = student.walk.bind(student);
+// blind walk function into obj student
+walk(); 
