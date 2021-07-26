@@ -30,3 +30,28 @@ walk() //window function
 const walk = student.walk.bind(student);
 // blind walk function into obj student
 walk(); 
+
+// Arrow function
+
+const square = function(number){
+    return number * number;
+}
+
+const squareArrow = numberArrow => number * number;
+
+const jobs = [
+    {id:1 , isActive: true},
+    {id:2 , isActive: true},
+    {id:3 , isActive: false}
+];
+
+const activeJob = jobs.filter(job  => job.isActive);
+
+const classes =[
+    {id :1 , isUsing: true},
+    {id :2 , isUsing: true},
+    {id :3 , isUsing: true}
+];
+
+const usingClass = classes.filter(classes => claseese.isUsing);
+
