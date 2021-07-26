@@ -72,3 +72,22 @@ const colors =[ 'red', 'green', 'blue'];
 // '<li>' + color + '</li>'
 const items = colors.map( color => `<li> ${color} </li>`);
 
+//  Object Destructuring
+
+const address ={
+    street: '',
+    city:'',
+    country:''
+};
+
+const street = address.street;
+// old way
+
+const{street, city, country} = address;
+// better way
+const{street} = address;
+// only one element
+const{street:st} = adrress;
+// use st to store street
+
+
