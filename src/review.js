@@ -65,3 +65,10 @@ const timer = {
         }, 1000);
     }
 };
+
+//  Array.map  Method
+
+const colors =[ 'red', 'green', 'blue'];
+// '<li>' + color + '</li>'
+const items = colors.map( color => `<li> ${color} </li>`);
+
